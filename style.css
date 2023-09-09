@@ -22,6 +22,9 @@ main {
 .container {
     margin-top: 15vh;
 }
+.username {
+    font-size: 1.4rem;
+}
 .col-1 {
     text-align: center;
 }
