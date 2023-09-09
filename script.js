@@ -50,7 +50,8 @@ function displayTime() {
       "Saturday",
     ];
     dayOfWeek.innerHTML = days[d.getDay()];
-    let currentTimeUTC = new Date().toUTCString();
+    // let currentTimeUTC = new Date().toUTCString();
+    let currentTimeUTC = Date.now()
     utcDisplay.innerHTML = currentTimeUTC;
   }
 
